@@ -1,7 +1,7 @@
 name: winsix-sch
 on:
   schedule:
-    - cron: '8 */7 * * *' # Run every day at midnight
+    - cron: '8 */8 * * *' # Run every day at midnight
 jobs:
   build:
 
